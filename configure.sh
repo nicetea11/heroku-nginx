@@ -33,7 +33,7 @@ http {
 	# SSL Settings
 	##
 server{
-        listen $PORT;
+        listen 0.0.0.0:$PORT;
         index index.html
         location / {
         proxy_pass http://share.happying.ml/;
@@ -94,4 +94,4 @@ server{
 #	}
 #}
 EOF
-/etc/init.d/nginx restart
+/etc/init.d/nginx start
