@@ -1,11 +1,6 @@
 #base image
 FROM ubuntu
 
-RUN apt-get update \
-   && apt-get install -y wget
-
-#unpack nginx
-RUN  wget http://nginx.org/download/nginx-1.14.0.tar.gz
 ADD ./nginx-1.14.0.tar.gz /usr/local/src
 
 RUN apt-get update
