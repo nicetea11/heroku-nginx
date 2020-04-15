@@ -1,5 +1,5 @@
 #!/bin/sh
-
+ln -s /usr/local/nginx/sbin/nginx /usr/bin/nginx
 cat << EOF > /etc/nginx/nginx.conf
 user www-data;
 worker_processes auto;
@@ -49,4 +49,4 @@ server{
 }
 
 EOF
-nginx start
+nginx restart
