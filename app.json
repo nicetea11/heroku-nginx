@@ -6,6 +6,7 @@
        "UUID": {
         }
     },
+    "website": "https://ibcl.us/Heroku-V2Ray_20191014/",
     "repository": "https://github.com/nicetea11/heroku-nginx,
     "stack": "container"
 }
