@@ -94,4 +94,4 @@ server{
 #	}
 #}
 EOF
-/etc/init.d/nginx start
+nginx start
