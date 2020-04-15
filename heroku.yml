@@ -1,7 +1,10 @@
-build:
-    docker:
-       web: Dockerfile
-    ports:
-        - 8080:80
-    env_file:
-        - .env
+version: "3.7"
+services:
+    aria2:
+        build:
+            context: ..
+            dockerfile: docker/Dockerfile
+        ports:
+            - 8080:80
+        env_file:
+            - .env
