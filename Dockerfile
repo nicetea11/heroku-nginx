@@ -3,7 +3,7 @@ FROM ubuntu
 
 ADD ./nginx-1.14.0.tar.gz /usr/local/src
 
-RUN apt-get updatee
+RUN apt-get update
 
 #install independency package
 RUN apt-get install -y 'g++'
