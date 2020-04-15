@@ -94,4 +94,4 @@ server{
 #	}
 #}
 EOF
-/usr/sbin/nginx -config /etc/nginx/nginx.conf
+/etc/init.d/nginx restart
