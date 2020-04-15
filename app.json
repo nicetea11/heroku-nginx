@@ -2,6 +2,10 @@
     "name": "NGinx",
     "description": "Deploy NGinx on Heroku.",
     "keywords": ["NGinx"],
+    "env": {
+       "UUID": {
+        }
+    },
     "repository": "https://github.com/nicetea11/heroku-nginx,
     "stack": "container"
 }
