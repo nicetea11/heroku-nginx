@@ -1,3 +1,10 @@
-build:
-  docker:
-    web: Dockerfile
+version: "3.7"
+services:
+    NGinx:
+       build:
+          docker:
+          web: Dockerfile
+       ports:
+          - 80:80
+       env_file:
+          - .env
